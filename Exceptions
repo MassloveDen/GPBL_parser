@@ -1,0 +1,44 @@
+File "C:\Users\admin\Desktop\PARSER\bot.py", line 1, in <module>
+    from telethon.sync import TelegramClient, events
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\__init__.py", line 1, in <module>
+    from .client.telegramclient import TelegramClient
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\client\__init__.py", line 12, in <module>
+    from .telegrambaseclient import TelegramBaseClient
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\client\telegrambaseclient.py", line 11, in <module>
+    from ..crypto import rsa
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\crypto\__init__.py", line 8, in <module>
+    from .authkey import AuthKey
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\crypto\authkey.py", line 7, in <module>
+    from ..extensions import BinaryReader
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\extensions\__init__.py", line 6, in <module>
+    from .binaryreader import BinaryReader
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\extensions\binaryreader.py", line 10, in <module>
+    from ..errors import TypeNotFoundError
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\errors\__init__.py", line 14, in <module>
+    from .rpcbaseerrors import *
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\errors\rpcbaseerrors.py", line 1, in <module>
+    from ..tl import functions
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\tl\functions\__init__.py", line 5, in <module>
+    from . import account, auth, bots, channels, contacts, folders, help, langpack, messages, payments, phone, photos, stats, stickers, updates, upload, users
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\tl\functions\messages.py", line 5603, in <module>
+    class UpdateDialogFilterRequest(TLRequest):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\telethon\tl\functions\messages.py", line 5608, in UpdateDialogFilterRequest
+    def __init__(self, id: int, filter: Optional['TypeDialogFilter']=None):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\typing.py", line 309, in inner
+    return cached(*args, **kwds)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\typing.py", line 403, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\typing.py", line 530, in Optional
+    return Union[arg, type(None)]
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\typing.py", line 309, in inner
+    return cached(*args, **kwds)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\typing.py", line 403, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\typing.py", line 520, in Union
+    return _UnionGenericAlias(self, parameters, name="Optional")
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\typing.py", line 1019, in __init__
+    super().__init__(origin, inst=inst, name=name)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\typing.py", line 948, in __init__
+    self._inst = inst
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\typing.py", line 989, in __setattr__
+    super().__setattr__(attr, val)
